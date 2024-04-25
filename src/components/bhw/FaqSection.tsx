@@ -108,9 +108,15 @@ const FaqSection = (props: Props) => {
           <AccordionItem>
             <AccordionTrigger>What is your refund policy?</AccordionTrigger>
             <AccordionContent>
-              We have a 14-day risk free period to test our services during sign
+              We have a 7-day risk free period to test our services during sign
               up. If you do not wish to proceed with our services, a refund will
               be issued for your order on request.
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionTrigger>What payment you are accepting?</AccordionTrigger>
+            <AccordionContent>
+              We accept Bitcoin, ETH, Credit Card, Transerwise, Paypal
             </AccordionContent>
           </AccordionItem>
         </Accordion>
