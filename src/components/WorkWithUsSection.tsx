@@ -34,7 +34,7 @@ const WorkWithUsSection = (props: Props) => {
               Subscribe Now
             </a>
           </div>
-          <div className="flex items-center justify-center w-full h-[400px] md:w-[440px] md:h-[440px] rounded-[30px] bg-gradient-to-b from-[#202BD7] from-0% to-[#8724EF] to-100%">
+          <div className="flex px-6 md:px-0 items-center justify-center w-full h-[400px] md:w-[440px] md:h-[440px] rounded-[30px] bg-gradient-to-b from-[#202BD7] from-0% to-[#8724EF] to-100%">
             <Image
               src={ImgChoosePlan}
               width={356}

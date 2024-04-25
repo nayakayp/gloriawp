@@ -28,7 +28,7 @@ const PricingSection = (props: Props) => {
       </p>
 
       <div className="flex flex-col md:flex-row items-start justify-center gap-10 text-white font-noto-sans mt-10">
-        <div className="md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
+        <div className="w-full md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="mb-4">
             <p className="font-semibold text-2xl">Pro</p>
             {/* <p className="font-normal text-base">Get started plan</p> */}
@@ -69,7 +69,7 @@ const PricingSection = (props: Props) => {
           </button>
         </div>
 
-        <div className="md:w-1/3 relative overflow-clip bg-white text-[#0A191C] rounded-[30px] px-8 py-10">
+        <div className="w-full md:w-1/3 relative overflow-clip bg-white text-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="z-20 absolute -top-[380px] -right-[200px] w-[440px] h-[440px] bg-gradient-radial from-[#202BD7] to-[#8724EF] rounded-full"></div>
           <div className="z-10 absolute -top-[400px] -right-[120px] w-[440px] h-[440px] bg-gradient-radial from-[#F1326B] to-[#F15F3B] rounded-full"></div>
           <div className="mb-4">
@@ -113,7 +113,7 @@ const PricingSection = (props: Props) => {
           </button>
         </div>
 
-        <div className="md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
+        <div className="w-full md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="mb-4">
             <p className="font-semibold text-2xl">Basic</p>
             {/* <p className="font-normal text-base">Get started plan</p> */}
