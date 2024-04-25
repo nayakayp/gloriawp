@@ -6,11 +6,14 @@ type Props = {};
 
 const PricingSection = (props: Props) => {
   return (
-    <section id="pricing" className="min-h-screen px-[100px] pt-[75px]">
-      <h4 className="text-center text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xl mb-5">
+    <section
+      id="pricing"
+      className="min-h-screen px-4 pt-10 md:px-[100px] md:pt-[75px]"
+    >
+      <h4 className="text-center text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xs md:text-xl mb-5">
         JOIN NOW
       </h4>
-      <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-[50px]">
+      <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-2xl md:text-[50px]">
         Membership Pricing
       </h3>
       <p className="text-center font-semibold text-white font-noto-sans mt-6 text-lg">
@@ -24,8 +27,8 @@ const PricingSection = (props: Props) => {
         </a>
       </p>
 
-      <div className="flex items-start justify-center gap-10 text-white font-noto-sans mt-10">
-        <div className="w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
+      <div className="flex flex-col md:flex-row items-start justify-center gap-10 text-white font-noto-sans mt-10">
+        <div className="md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="mb-4">
             <p className="font-semibold text-2xl">Pro</p>
             {/* <p className="font-normal text-base">Get started plan</p> */}
@@ -66,7 +69,7 @@ const PricingSection = (props: Props) => {
           </button>
         </div>
 
-        <div className="w-1/3 relative overflow-clip bg-white text-[#0A191C] rounded-[30px] px-8 py-10">
+        <div className="md:w-1/3 relative overflow-clip bg-white text-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="z-20 absolute -top-[380px] -right-[200px] w-[440px] h-[440px] bg-gradient-radial from-[#202BD7] to-[#8724EF] rounded-full"></div>
           <div className="z-10 absolute -top-[400px] -right-[120px] w-[440px] h-[440px] bg-gradient-radial from-[#F1326B] to-[#F15F3B] rounded-full"></div>
           <div className="mb-4">
@@ -110,7 +113,7 @@ const PricingSection = (props: Props) => {
           </button>
         </div>
 
-        <div className="w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
+        <div className="md:w-1/3 bg-[#0A191C] rounded-[30px] px-8 py-10">
           <div className="mb-4">
             <p className="font-semibold text-2xl">Basic</p>
             {/* <p className="font-normal text-base">Get started plan</p> */}

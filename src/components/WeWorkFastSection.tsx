@@ -14,10 +14,10 @@ type Props = {};
 
 const WeWorkFastSection = (props: Props) => {
   return (
-    <section className="px-[100px] pt-[75px]">
-      <div className="flex  gap-[50px]">
-        <div className="grid grid-cols-3 gap-2 grid-rows-3 w-[440px] h-[440px] p-4 bg-gradient-to-br from-[#F1326B] to-[#F15F3B] rounded-[16px]">
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+    <section className="px-4 pt-16 md:px-[100px] md:pt-[75px]">
+      <div className="flex flex-col md:flex-row gap-[50px]">
+        <div className="grid grid-cols-3 gap-2 grid-rows-3 w-[300px] h-[300px] md:w-[440px] md:h-[440px] p-4 bg-gradient-to-br from-[#F1326B] to-[#F15F3B] rounded-[16px]">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgElementor}
               width={120}
@@ -25,7 +25,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgBeaverBuilder}
               width={200}
@@ -33,7 +33,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgSiteOrigin}
               width={100}
@@ -41,7 +41,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgOxygen}
               width={100}
@@ -49,7 +49,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgWpBakery}
               width={100}
@@ -57,7 +57,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgSeedPro}
               width={100}
@@ -65,7 +65,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgLiveComposer}
               width={100}
@@ -73,7 +73,7 @@ const WeWorkFastSection = (props: Props) => {
               alt="elementor logo branded"
             />
           </div>
-          <div className="bg-white rounded-[8px] flex items-center justify-center">
+          <div className="p-2 md:p-0 bg-white rounded-[8px] flex items-center justify-center">
             <Image
               src={ImgPageBuilderSandwich}
               width={100}
@@ -82,7 +82,7 @@ const WeWorkFastSection = (props: Props) => {
             />
           </div>
           <div className="bg-white rounded-[8px] flex items-center justify-center">
-            <p className="text-[#0A191C] font-noto-sans text-xs">
+            <p className="text-[#0A191C] font-noto-sans text-xs text-center">
               Your request here
             </p>
           </div>
@@ -95,14 +95,14 @@ const WeWorkFastSection = (props: Props) => {
           {/*   /> */}
           {/* </div> */}
         </div>
-        <div className="w-1/2">
-          <h4 className="text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xl mb-5">
+        <div className="md:w-1/2">
+          <h4 className="text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xs md:text-xl mb-5">
             HOW WE WORK FAST
           </h4>
-          <h3 className="text-white font-noto-sans leading-[100%] font-semibold text-[50px]">
+          <h3 className="text-white font-noto-sans leading-[100%] font-semibold text-2xl md:text-[50px]">
             We work faster by using page builders
           </h3>
-          <div className="text-white font-noto-sans-display text-xl mt-10">
+          <div className="text-white font-noto-sans-display text-lg md:text-xl mt-10">
             <p>
               We collaborate with all major page builders, such as Elementor.
               Whether you want to utilize the existing functionality of a page

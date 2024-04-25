@@ -5,20 +5,20 @@ type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <section className="min-h-screen px-[100px] pt-[75px] section-bg flex flex-col justify-center">
+    <section className="min-h-screen px-4 pt-10 md:px-[100px] md:pt-[75px] section-bg flex flex-col justify-center">
       <div className="flex flex-col items-center gap-10">
         <div className="max-w-screen-sm mx-auto ">
-          <h4 className="text-center text-white uppercase font-noto-sans-display font-semibold text-xl mb-5">
+          <h4 className="text-center text-white uppercase font-noto-sans-display font-semibold text-xs md:text-xl mb-5">
             GET STARTED WITH US
           </h4>
-          <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-[50px]">
+          <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-2xl md:text-[50px]">
             Stop wasting time, and get your first task done
           </h3>
         </div>
         <a
           target="_blank"
           href="https://calendly.com/wpenigma/consultation-call"
-          className="text-[#0C1F23] bg-white py-4 px-10 text-2xl font-noto-sans-display font-medium mx-auto rounded-md"
+          className="text-[#0C1F23] bg-white py-4 px-10 text-lg md:text-2xl font-noto-sans-display font-medium mx-auto rounded-md"
         >
           Book a Call
         </a>

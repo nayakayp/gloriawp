@@ -10,12 +10,12 @@ type Props = {};
 
 const FaqSection = (props: Props) => {
   return (
-    <section className="min-h-screen px-[100px] pt-[75px] mb-[100px]">
+    <section className="min-h-screen px-4 pt-10 md:px-[100px] md:pt-[75px] mb-[100px]">
       <div className="max-w-[780px] mx-auto ">
-        <h4 className="text-center text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xl mb-5">
+        <h4 className="text-center text-[#FFE606] uppercase font-noto-sans-display font-semibold text-xs md:text-xl mb-5">
           FREQUENTLY ASK QUESTIONS
         </h4>
-        <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-[50px]">
+        <h3 className="mx-auto text-center text-white font-noto-sans leading-[100%] font-semibold text-2xl md:text-[50px]">
           Essential information you&apos;ll want to discover
         </h3>
       </div>
