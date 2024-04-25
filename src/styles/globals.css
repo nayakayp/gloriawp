@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-bg {
+    background: linear-gradient(
+      180deg,
+      rgba(36, 42, 217, 1) 0%,
+      rgba(176, 37, 192, 1) 44%,
+      rgba(234, 41, 110, 1) 58%,
+      rgba(194, 85, 40, 1) 73%,
+      rgba(12, 31, 35, 1) 100%
+    );
+  }
+
+  .vertical-divider {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(204, 204, 204, 1) 50%,
+      rgba(153, 153, 153, 0) 100%
+    );
+  }
+}
