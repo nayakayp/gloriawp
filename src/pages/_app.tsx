@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <Fragment>
       <Component {...pageProps} />;
       <GoogleAnalytics gaId="G-BG7M8ZY4EG" />
-      <GoogleTagManager gtmId="BG7M8ZY4EG" />
+      <GoogleTagManager gtmId="G-BG7M8ZY4EG" />
     </Fragment>
   );
 }
