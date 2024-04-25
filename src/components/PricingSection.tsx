@@ -14,7 +14,7 @@ const PricingSection = (props: Props) => {
         Membership Pricing
       </h3>
       <p className="text-center font-semibold text-white font-noto-sans mt-6 text-lg">
-        Don&apos;t know what&apos;s the best?{" "}
+        Don&apos;t know what fit you?{" "}
         <a
           target="_blank"
           href="https://calendly.com/wpenigma/consultation-call"

@@ -56,8 +56,8 @@ const FaqSection = (props: Props) => {
               I know you will be skeptical regarding with quality that we will
               delliver. It is because all of our developer is coming from 3rd
               world country, what you paid is very high relative what we get
-              here. What you paid to can make us hire the best developer and
-              deliver the best result but still with affordable price.
+              here. What you paid can make us hire high quality developer and
+              deliver maximum result but still with affordable price.
             </AccordionContent>
           </AccordionItem>
 
@@ -78,7 +78,7 @@ const FaqSection = (props: Props) => {
               What kinds of websites do you help with?
             </AccordionTrigger>
             <AccordionContent>
-              We are 100% focused on helping those with WordPress websites of
+              We are only focused on helping those with WordPress websites of
               all shapes and sizes, including personal websites, small business
               websites, large scale websites, membership, WooCommerce/eCommerce,
               and e-Learning sites.
@@ -93,7 +93,7 @@ const FaqSection = (props: Props) => {
               easily create and manage all your requests in one place. There,
               you can also communicate with the person handling your request.
               But we are open to other ways of collaborating like Slack, etc.
-              Please reach out to us to discuss how best we can collaborate and
+              Please reach out to us to discuss how we can collaborate and
               support you.
             </AccordionContent>
           </AccordionItem>
@@ -101,8 +101,8 @@ const FaqSection = (props: Props) => {
             <AccordionTrigger>How many revisions do I get?</AccordionTrigger>
             <AccordionContent>
               There is no limitation on the number of revisions you can get for
-              any given task. Our team of developers and designers are dedicated
-              to providing you 100% work satisfaction.
+              any given task. So be happy to request as many revision until you
+              are satisfied
             </AccordionContent>
           </AccordionItem>
           <AccordionItem>
