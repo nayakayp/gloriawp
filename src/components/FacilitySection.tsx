@@ -56,7 +56,10 @@ const Facility = (props: Props) => {
 
       <div className="mt-[60px] grid md:grid-cols-3 gap-16">
         <div>
-          <TaskIcon />
+          {/* <TaskIcon /> */}
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Unlimited" />
+          </div>
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Unlimited Task
@@ -68,7 +71,10 @@ const Facility = (props: Props) => {
           </div>
         </div>
         <div>
-          <QuickIcon />
+          {/* <QuickIcon /> */}
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Quick" />
+          </div>
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Quick Turnaround
@@ -80,7 +86,10 @@ const Facility = (props: Props) => {
           </div>
         </div>
         <div>
-          <TeamIcon />
+          {/* <TeamIcon /> */}
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Team" />
+          </div>
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Experienced Team
@@ -92,13 +101,10 @@ const Facility = (props: Props) => {
           </div>
         </div>
         <div>
-          <RateIcon />
-          {/* <div className="w-[40px] h-[40px]"> */}
-          {/*   <Rive */}
-          {/*     src={"https://www.nayakayoga.com/facility.riv"} */}
-          {/*     artboard="Rate" */}
-          {/*   /> */}
-          {/* </div> */}
+          {/* <RateIcon /> */}
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Rate" />
+          </div>
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Affordable Flat Rate
@@ -110,13 +116,10 @@ const Facility = (props: Props) => {
           </div>
         </div>
         <div>
-          <PlatformIcon />
-          {/* <div className="w-[40px] h-[40px]"> */}
-          {/*   <Rive */}
-          {/*     src={"https://www.nayakayoga.com/facility.riv"} */}
-          {/*     artboard="Platform" */}
-          {/*   /> */}
-          {/* </div> */}
+          {/* <PlatformIcon /> */}
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Platform" />
+          </div>
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Multiple Platform
@@ -128,7 +131,10 @@ const Facility = (props: Props) => {
           </div>
         </div>
         <div>
-          <CollaborationIcon />
+          <div className="w-[60px] h-[60px]">
+            <Rive src={"/wp_enigma.riv"} artboard="Collaboration" />
+          </div>
+          {/* <CollaborationIcon /> */}
           <div className="mt-4">
             <p className="text-white font-noto-sans text-xl md:text-2xl">
               Easy Collaboration

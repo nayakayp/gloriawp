@@ -3,6 +3,7 @@ import React from "react";
 import ImgChoosePlan from "@/assets/img/choose-plan.png";
 import ImgSubmitTask from "@/assets/img/submit-task.png";
 import ImgDelivery from "@/assets/img/delivery.png";
+import Rive from "@rive-app/react-canvas";
 import Image from "next/image";
 
 type Props = {};
@@ -35,12 +36,16 @@ const WorkWithUsSection = (props: Props) => {
             </a>
           </div>
           <div className="flex px-6 md:px-0 items-center justify-center w-full h-[400px] md:w-[440px] md:h-[440px] rounded-[30px] bg-gradient-to-b from-[#202BD7] from-0% to-[#8724EF] to-100%">
-            <Image
-              src={ImgChoosePlan}
-              width={356}
-              height={183}
-              alt="choose plan"
-            />
+            <div className="w-[300px] h-[440px]">
+              <Rive src={"/wp_enigma.riv"} artboard="Choose Plan" />
+            </div>
+
+            {/* <Image */}
+            {/*   src={ImgChoosePlan} */}
+            {/*   width={356} */}
+            {/*   height={183} */}
+            {/*   alt="choose plan" */}
+            {/* /> */}
           </div>
         </div>
         <div className="bg-[#0A191C] rounded-[30px] max-w-[1084px] mx-auto flex flex-col-reverse md:flex-row-reverse items-center justify-between">
@@ -61,12 +66,16 @@ const WorkWithUsSection = (props: Props) => {
             </a>
           </div>
           <div className="flex items-center justify-center w-full md:w-[440px] h-[440px] max-h-[440px] rounded-[30px] bg-gradient-to-b from-[#9624E4] from-0% to-[#E92970] to-100%">
-            <Image
-              src={ImgSubmitTask}
-              width={268}
-              height={218}
-              alt="submit task"
-            />
+            <div className="w-[268px] h-[440px]">
+              <Rive src={"/wp_enigma.riv"} artboard="Submit Task" />
+            </div>
+
+            {/* <Image */}
+            {/*   src={ImgSubmitTask} */}
+            {/*   width={268} */}
+            {/*   height={218} */}
+            {/*   alt="submit task" */}
+            {/* /> */}
           </div>
         </div>
         <div className="bg-[#0A191C] rounded-[30px] md:max-w-[1084px] mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
@@ -86,7 +95,11 @@ const WorkWithUsSection = (props: Props) => {
             </a>
           </div>
           <div className="flex items-center justify-center w-full md:w-[440px] h-[440px] max-h-[440px] rounded-[30px] bg-gradient-to-b from-[#F1326B] from-0% to-[#F15F3B] to-100%">
-            <Image src={ImgDelivery} width={230} height={300} alt="delivery" />
+            <div className="w-[230px] h-[300px]">
+              <Rive src={"/wp_enigma.riv"} artboard="Delivery" />
+            </div>
+
+            {/* <Image src={ImgDelivery} width={230} height={300} alt="delivery" /> */}
           </div>
         </div>
       </div>
