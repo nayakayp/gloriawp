@@ -4,7 +4,7 @@ type Props = {};
 
 const PortfolioSection = (props: Props) => {
   return (
-    <section className="-mt-10 flex p-4 overflow-x-scroll gap-4">
+    <section id="portfolio" className="-mt-10 flex p-4 overflow-x-scroll gap-4">
       <img
         src="https://assets-global.website-files.com/5beab1239ac8840644a660b4/65f916c637abbc1c8ab1cd08_thumbnail.-p-500.png"
         alt=""

@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar";
 
 import Head from "next/head";
 import PortfolioSection from "@/components/PortfolioSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <WeWorkFastSection />
       <WorkWithUsSection />
       <PricingSection />
+      <TestimonialsSection />
       <FaqSection />
       <Footer />
     </main>

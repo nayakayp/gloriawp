@@ -13,13 +13,13 @@ const Navbar = (props: Props) => {
         </div>
         <ul className="fixed bottom-6 left-1/2 -translate-x-1/2 px-8 py-4 shadow-sm font-medium shadow-white rounded-full text-sm z-50 flex bg-black md:translate-x-0 md:bg-transparent md:shadow-none md:p-0 md:static md:flex items-center text-white gap-8 font-noto-sans-display">
           <li>
-            <Link href="#">Testimonials</Link>
+            <Link href="#testimonials">Testimonials</Link>
           </li>
           <li>
-            <Link href="#">Portfolio</Link>
+            <Link href="#portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link href="#">Pricing</Link>
+            <Link href="#pricing">Pricing</Link>
           </li>
         </ul>
 
