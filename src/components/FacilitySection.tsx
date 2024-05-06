@@ -22,7 +22,7 @@ const Facility = (props: Props) => {
         </h3>
       </div>
 
-      <div className="relative mt-10 md:mt-[72px] overflow-clip flex justify-between flex-wrap gap-x-[60px] gap-y-4 bg-white py-[80px] px-8 md:px-[50px] rounded-[30px]">
+      <div className="relative mt-10 md:mt-[72px] overflow-clip flex justify-between flex-wrap gap-x-[60px] gap-y-4 bg-white py-[80px] px-8 md:px-[50px] md:rounded-[30px]">
         <div className="z-20 absolute -top-[362px] -left-[200px] w-[440px] h-[440px] bg-gradient-radial from-[#202BD7] to-[#8724EF] rounded-full"></div>
         <div className="z-10 absolute -top-[392px] -left-[100px] w-[440px] h-[440px] bg-gradient-radial from-[#F1326B] to-[#F15F3B] rounded-full"></div>
         <ul className="text-[#0A191C] font-semibold font-noto-sans text-base md:text-xl gap-y-4 md:gap-y-[70px] flex flex-col">

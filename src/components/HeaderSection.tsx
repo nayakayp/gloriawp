@@ -11,25 +11,16 @@ type Props = {};
 
 const HeaderSection = (props: Props) => {
   return (
-    <section className="md:min-h-screen flex flex-col items-center justify-center section-bg px-4">
-      <div className="pt-10 md:pt-0 flex flex-col items-center gap-[20px]">
-        <div className="w-40 md:w-[285px]">
-          <Image
-            src="/logo.png"
-            alt="wp enigma logo"
-            width={285}
-            height={57}
-            className="mb-4"
-          />
-        </div>
-        {/* <h2 className="font-noto-sans font-normal text-white rounded-full border-white border w-fit py-4 px-6 text-xs uppercase bg-gradient-to-r from-[#D9D9D9] from-0% to-[#737373]/0 to-100%"> */}
-        {/*   Unlimited Wordpress Development */}
-        {/* </h2> */}
+    <section className="md:min-h-screen flex flex-col items-center justify-center section-bg px-4 pb-10">
+      <div className="pt-36 md:pt-20 flex flex-col items-center gap-[20px]">
+        <h2 className="font-noto-sans font-normal text-white rounded-full border-white border w-fit py-2 px-4 md:py-4 md:px-6 text-xs uppercase bg-gradient-to-r from-[#D9D9D9] from-0% to-[#737373]/0 to-100%">
+          Unlimited Wordpress Development
+        </h2>
         <h1 className="text-white font-noto-sans font-bold text-3xl md:text-[130px] md:leading-[123px] text-center">
           Build unlimited custom wordpress website
         </h1>
       </div>
-      <div className="flex items-center gap-4 md:gap-[100px] pt-28 justify-center w-full max-w-screen-md md:max-w-screen-lg overflow-hidden">
+      <div className="flex items-center gap-4 md:gap-[100px] pt-20 justify-center w-full max-w-screen-md md:max-w-screen-lg overflow-hidden">
         <div className="flex items-center justify-center md:w-[250px] w-[120px] h-[50px]">
           <Image
             src={ImgElementor}
