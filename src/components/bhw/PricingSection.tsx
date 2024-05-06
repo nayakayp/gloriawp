@@ -140,7 +140,7 @@ const PricingSection = (props: Props) => {
         <p className="text-white font-extralight font-noto-sans-display text-sm italic text-center">
           Accepted payment
         </p>
-        <div className="w-56 mx-auto md:w-[450px]">
+        <div className="w-56 mx-auto md:w-[250px]">
           <Image
             src={ImgPayment}
             width={450}

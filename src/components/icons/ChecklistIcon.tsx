@@ -19,8 +19,6 @@ const ChecklistIcon = ({ color }: Props) => {
     light: { fill: "white", stroke: "#0C1F23" },
   };
 
-  console.log(color, colors[color]);
-
   return (
     <svg
       width="29"

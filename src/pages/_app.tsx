@@ -6,7 +6,7 @@ import { Fragment } from "react";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <GoogleAnalytics gaId="G-BG7M8ZY4EG" />
       <GoogleTagManager gtmId="GTM-M5KXKNWV" />
     </Fragment>
