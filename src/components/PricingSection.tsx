@@ -2,9 +2,28 @@ import React from "react";
 import ChecklistIcon from "./icons/ChecklistIcon";
 import { PopupButton } from "react-calendly";
 
-type Props = {};
+type Props = {
+  currency: "id" | "usd";
+};
 
-const PricingSection = (props: Props) => {
+const PricingSection = ({ currency }: Props) => {
+  const pricing = [
+    {
+      packages: {
+        pro: "Rp. 15jt",
+        business: "Rp. 26jt",
+        basic: "Rp. 7jt",
+      },
+    },
+    {
+      packages: {
+        pro: "$1,500",
+        business: "$2,650",
+        basic: "$700",
+      },
+    },
+  ];
+
   return (
     <section
       id="pricing"
@@ -35,7 +54,10 @@ const PricingSection = (props: Props) => {
           </div>
           <div className="mb-[30px]">
             <p className="font-semibold text-3xl">
-              $1,500<span className="font-extralight text-xl">/month</span>
+              {currency === "id"
+                ? pricing[0].packages.pro
+                : pricing[1].packages.pro}
+              <span className="font-extralight text-xl">/month</span>
             </p>
             <p className="font-extralight text-base">3-4 hour per day</p>
           </div>
@@ -78,7 +100,10 @@ const PricingSection = (props: Props) => {
           </div>
           <div className="mb-[30px]">
             <p className="font-semibold text-3xl">
-              $2,650<span className="font-extralight text-xl">/month</span>
+              {currency === "id"
+                ? pricing[0].packages.business
+                : pricing[1].packages.business}
+              <span className="font-extralight text-xl">/month</span>
             </p>
             <p className="font-extralight text-base">6-8 hour per day</p>
           </div>
@@ -120,7 +145,10 @@ const PricingSection = (props: Props) => {
           </div>
           <div className="mb-[30px]">
             <p className="font-semibold text-3xl">
-              $700<span className="font-extralight text-xl">/month</span>
+              {currency === "id"
+                ? pricing[0].packages.basic
+                : pricing[1].packages.basic}
+              <span className="font-extralight text-xl">/month</span>
             </p>
             <p className="font-extralight text-base">1-2 hour per day</p>
           </div>
