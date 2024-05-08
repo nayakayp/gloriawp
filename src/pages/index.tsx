@@ -19,12 +19,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeaderSection />
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <FacilitySection />
       <WeWorkFastSection />
       <WorkWithUsSection />
       <PricingSection currency="usd" />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <FaqSection />
       <Footer />
     </main>

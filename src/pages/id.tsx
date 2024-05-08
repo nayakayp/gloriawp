@@ -19,12 +19,12 @@ export default function HomeID() {
       </Head>
       <Navbar />
       <HeaderSection />
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <FacilitySection />
       <WeWorkFastSection />
       <WorkWithUsSection />
       <PricingSection currency="id" />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <FaqSection />
       <Footer />
     </main>

@@ -19,7 +19,7 @@ export default function SpecialBHW() {
       <Announcement />
       <Navbar />
       <HeaderSection />
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <FacilitySection />
       <WeWorkFastSection />
       <WorkWithUsSection />
