@@ -11,7 +11,7 @@ import Head from "next/head";
 import PortfolioSection from "@/components/PortfolioSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 
-export default function Home() {
+export default function HomeID() {
   return (
     <main className="bg-[#0C1F23]">
       <Head>
@@ -23,7 +23,7 @@ export default function Home() {
       <FacilitySection />
       <WeWorkFastSection />
       <WorkWithUsSection />
-      <PricingSection currency="usd" />
+      <PricingSection currency="id" />
       <TestimonialsSection />
       <FaqSection />
       <Footer />
